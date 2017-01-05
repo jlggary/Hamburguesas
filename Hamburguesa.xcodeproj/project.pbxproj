@@ -12,7 +12,7 @@
 		BE499C461E1E493A00A2D95A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE499C441E1E493A00A2D95A /* Main.storyboard */; };
 		BE499C481E1E493A00A2D95A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE499C471E1E493A00A2D95A /* Assets.xcassets */; };
 		BE499C4B1E1E493A00A2D95A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE499C491E1E493A00A2D95A /* LaunchScreen.storyboard */; };
-		BE499C531E1E495500A2D95A /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE499C521E1E495500A2D95A /* File.swift */; };
+		BE499C551E1E498200A2D95A /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE499C541E1E498200A2D95A /* Datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		BE499C471E1E493A00A2D95A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE499C4A1E1E493A00A2D95A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE499C4C1E1E493A00A2D95A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE499C521E1E495500A2D95A /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		BE499C541E1E498200A2D95A /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 				BE499C471E1E493A00A2D95A /* Assets.xcassets */,
 				BE499C491E1E493A00A2D95A /* LaunchScreen.storyboard */,
 				BE499C4C1E1E493A00A2D95A /* Info.plist */,
-				BE499C521E1E495500A2D95A /* File.swift */,
+				BE499C541E1E498200A2D95A /* Datos.swift */,
 			);
 			path = Hamburguesa;
 			sourceTree = "<group>";
@@ -140,8 +140,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE499C431E1E493A00A2D95A /* ViewController.swift in Sources */,
-				BE499C531E1E495500A2D95A /* File.swift in Sources */,
 				BE499C411E1E493A00A2D95A /* AppDelegate.swift in Sources */,
+				BE499C551E1E498200A2D95A /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
