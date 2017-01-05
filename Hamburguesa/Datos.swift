@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  Datos.swift
 //  Hamburguesa
 //
 //  Created by Jose Garcia on 5/1/17.
