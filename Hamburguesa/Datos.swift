@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 class ColeccionDePaises{
     var paises : [String] = ["Perú", "Cuba", "Argentina", "Chile", "Méjico", "Ecuador", "España", "Francia", "Inglaterra", "Italia", "Suiza", "Alemania", "USA", "Noruega", "Suecia", "Rusia", "China", "Japón", "Australia", "Nueva Zelanda"]

@@ -9,6 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var pais : ColeccionDePaises?
+    var hamburguesa : ColeccionDeHamburguesas?
+    @IBOutlet weak var paisLabel: UILabel!
+    @IBOutlet weak var hamburguesaLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +25,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func cambiaEtiquetas() {
+        pais = ColeccionDePaises()
+        hamburguesa = ColeccionDeHamburguesas()
+        
+        paisLabel.text = pais!.obtenPais();
+        hamburguesaLabel.text = "Hamburguesa \(hamburguesa!.obtenHamburguesa())";
+    }
 
 }
 
